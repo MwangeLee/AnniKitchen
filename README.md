@@ -2,7 +2,7 @@
 This project is a restaurant landing website using html and CSS. It is a project that showcases works of a modern day restaurant 
 
 
-link to the deployment :
+Link to the deployment :
 ```
 https://mwangelee.github.io/AnniKitchen/
 ```
