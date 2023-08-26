@@ -14,7 +14,7 @@ This project was built with the followimng:
 
 ## Pre-requisites
 
-in order to run this website you will need the following
+In order to run this website you will need the following
 
 - Linux/Windows/MacOS
 - Browser
