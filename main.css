@@ -2,8 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
-  scroll-behavior: smooth;
+  font-family: "Poppins";
 }
 
 body {
@@ -215,7 +214,6 @@ nav a {
 
 #drinks .container {
   display: flex;
-
 }
 
 .drink-img {
@@ -245,24 +243,61 @@ nav a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
   padding: 50px;
 }
 
 #foods>.container {
+  width: 80%;
+  position: relative;
   background: #fff;
+  top: 25%;
+  left: 5%;
 }
-#foods>.container>.rows{
+
+.rows {
   color: #fff;
   background-color: #fff;
 }
 
-#foods>.container>.rows>.headings{
-  background: #cacaca;
-  display: flex;
-  padding: 10px;
-  color: #fff;
+.head {
+  flex-basis: 25%;
+  border-right: 1px solid #555555;
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+  background: #b4b4b4;
 }
 
+#head1 {
+  background: #fff;
+  color: #F15A29;
+}
+
+.headings {
+  display: flex;
+}
+
+.img {
+  display: flex;
+  padding: 30px;
+}
+
+.img i {
+  color: #F15A29;
+  width: 50px;
+  top: 50%;
+}
+
+.foods-img {
+  flex-basis: 20%;
+  padding: 10px;
+}
+
+.foods-img .layer h2 {
+  color: #F15A29;
+  text-align: center;
+}
 
 /*---customers----*/
 #customers {
@@ -270,14 +305,49 @@ nav a {
 }
 
 #customers>.container {
+  display: flex;
   background: #fff;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 50px;
-  width: 50%;
   box-shadow: 0 0 4px 4px #cacaca;
+  width: 80%;
+}
+
+#customers>.container>.col1 {
+  border-right: 1px solid;
+  text-align: center;
+  padding: 30px;
+}
+
+#customers>.container>.col1 h1 {
+  color: #F15A29;
+}
+
+#customers>.container>.col1>.col1-img {
+  align-items: center;
+  padding: 10px;
+}
+
+#customers>.container>.col1>.col1-img img {
+  padding: 10px;
+}
+
+#customers>.container>.col1>.col1-img i {
+  color: #F15A29;
+  margin: 10px;
+}
+
+#customers>.container>.col2 {
+  padding: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+#customers>.container>.col2 h1 {
+  color: #F15A29;
 }
 
 /*-----subscribe section styling---*/
