@@ -4,7 +4,7 @@ This project is a restaurant landing website using html and CSS. It is a project
 
 link to the deployment :
 ```
-
+https://mwangelee.github.io/AnniKitchen/
 ```
 ## Tools
 This project was built with the followimng:
@@ -29,7 +29,7 @@ This section will guide you on how to run this website in your local machine
 On your computer open the `terminal`(Linux/MacOS) or `GitBash`(windows)
 
 ```
-git clone https://github.com/MwangeLee/StreetFood.git
+git clone https://github.com/MwangeLee/AnniKitchen.git
 ```
 2. change to your working directory
 ```
@@ -44,7 +44,7 @@ code .
 
 ## Screenshots
 
-![one]()
+![one](src/Anitas%20Kitchen.jpg)
 
 ## Author
 This project was built and is maintained by:
