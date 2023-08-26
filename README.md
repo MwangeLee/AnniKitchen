@@ -23,7 +23,7 @@ in order to run this website you will need the following
 
 ## Setup
 
-This section will guide you on how to run this website in your local machine
+This section will guide you on how to run this Website in your local machine
 
 1. Clone this repo to your local machine
 On your computer open the `terminal`(Linux/MacOS) or `GitBash`(windows)
