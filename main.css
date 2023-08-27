@@ -34,8 +34,11 @@ nav a {
 }
 
 #landing .container .header-txt {
-  font-size: 2rem;
-  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+  font-style: italic;
 }
 
 /*foodtop*/
@@ -248,11 +251,8 @@ nav a {
 }
 
 #foods>.container {
-  width: 80%;
   position: relative;
   background: #fff;
-  top: 25%;
-  left: 5%;
 }
 
 .rows {
@@ -279,19 +279,19 @@ nav a {
 }
 
 .img {
-  display: flex;
-  padding: 30px;
+  padding: 50px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.img i {
+.icon {
   color: #F15A29;
-  width: 50px;
-  top: 50%;
+  padding: 10px;
 }
 
 .foods-img {
-  flex-basis: 20%;
-  padding: 10px;
+  flex-basis: 35%;
+  padding: 0 50px 0 50px;
 }
 
 .foods-img .layer h2 {
@@ -328,7 +328,8 @@ nav a {
 
 #customers>.container>.col1>.col1-img {
   align-items: center;
-  padding: 10px;
+  padding: 0 0 0 120px;
+  display: flex;
 }
 
 #customers>.container>.col1>.col1-img img {
@@ -367,26 +368,36 @@ nav a {
   padding: 150px;
   border-style: none;
 
+
 }
 
-#subscribe>.container>.email {
-  padding-top: 10px;
+.inner-container {
+  display: flex;
+  padding: 10px;
 }
 
-#subscribe>.container>.email>button {
+#subscribe>.container h3 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.email {
+  padding-right: 20px;
+}
+
+
+button {
   background-color: #F15A29;
-  padding: 10px 20px;
   border-style: none;
   color: #fff;
-  width: 10%;
+  padding: 10px 50px;
 }
 
-#subscribe>.container>.email>input {
-  padding: 10px 20px;
+input {
   background-color: #fff;
+  padding: 10px 50px;
   opacity: 0.5;
   border-style: none;
-  width: 30%;
 }
 
 /*----footer section----*/
@@ -408,6 +419,7 @@ nav a {
 
 #footer>.out>.container>.logo {
   display: flex;
+  align-items: center;
 }
 
 #footer>.out>.container>.logo>img {
